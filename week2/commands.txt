@@ -1,3 +1,21 @@
+//Neel Shah Changes
+//Date : 9th June 2015
+
+---- 2.1
+
+mongoimport --db pcat -c products < products.json
+
+use pcat;
+
+db.products.count()
+
+mongo --shell pcat homework2.js
+
+>homework.a()
+3.05
+
+Neel Shah Changes End//
+
 ---- 2.2
 
 var prod1 = db.products.findOne({_id:ObjectId("507d95d5719dbef170f15c00")})
